@@ -1,62 +1,27 @@
-<html1>
-    <head> <!-- referencia a los estilos scripts -->
+body {
+  font-size: 15px;
+  background-color: cornflowerblue;
+}
 
 
-        <title> NOT BRAKES </title>
-        <!-- la etiqueta link vincula archivos externos-->
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Cantora+One&display=swap');
 
 
-      
-        <link rel="stylesheet" href="style.css">
-    </head>
 
+.primero {
+  margin-top: 50px;
+  font-family: 'Cantora One', cursive;
+  front-weight: 400;
+  front-size: 40px;
+}
 
-    <body> <!--- estructura -->
-        <header>
-            <h1 class="primero"> NOT BREAKS? </h1> <!--titulo principal-->
-        </header>
-        <section>
+.segundo {
+  margin-top: 50px;
+  font-family: 'Cantora One', cursive;
+  front-weight: 400;
+  front-size: 40px;
+}
 
-            <H2 class="segundo"> 
-              Las bicicletas se toman las urbes y su agilidez es la razón de su uso.</H2> <!--subtitulos/titulos hasta h6 (6 es el mas pequeño) -->
-            <p>
-              Desde los velodromos, hasta las calles, autopistas; esto son las bicicletas de pista, fixie o piñon fijo. <br>
-              <br>
-              Con el sencillo sistema de frenado basado en el contra pedal y cadencia por circuferencia de biela es el metodo de frenado de este actualmente medio de transporte.
-        
-            </p>
-          
-          
-            
-        </section>
-
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Single_speed_conversion.jpg/185px-Single_speed_conversion.jpg" alt="singled speed" width="250" height="100">
-
-        <section> <!--seccion 2-->
-            <h2> ¿Bicicletas de pista o pistas para bicicletas? </h2>
-        <!-- creacion de lista -->
-          <ul>  
-            <li> 
-              La economia que genera el uso de una bicicleta de piñón fijo nace al               poco mantenimiento que necesita, siendo su sistema de arranque y                    frenado dependiente de su plato/coronilla, su cadena y piñón; los                   cuales con un debido mantemiento la inversion es minima. 
-            </li>
-
-            
-            <li> 
-              Las bicicletas convencionales requieren de un mantenimiento mas                    constante, donde se deben lubricar los fenos, camnbiar las pastillas                de frenado (en el caso de las bicicletas de frenado hidraulico)                     cambiar "zapatas" de frenado, lubricacion a las guayas(en el caso de                las bicicletas convencionales de freno de herradura). De igual forma a todo tipo de bicicleta su mayor cuidado sse debe ver en su kit de arrastre (plato, cadena,piñon, etc).
-              
-            </li>
-          </ul>
-          <p> 
-          El precio bajo de su mantenimiento y comcercialización las convierte en unas de las bicicletas mas usadas en la ciudad de bogotá, generando microempresas de distribucion de partes nuevas o de segunda; las partes de segunda mano siempre se manejará desde la moral del vendedor y del comprador, basandonos en los grandes casos de inseguridad respecto al robo de bicicletas.
-            <br>
-            <br>
-            
-          </p>
-          
-        </section>
-
-
-    </body>
 
 
 
