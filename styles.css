@@ -1,5 +1,6 @@
 
-<link rel="stylesheet" href="style.css">
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kalam:wght@300;400;700&family=Lilita+One&display=swap')
+
 
 /* Estilos Generales */
 body {
@@ -21,7 +22,7 @@ nav {
 .nav-logo {
     font-size: 2em;
     font-weight: bold;
-    color: #fff;
+    color: white;
 }
 
 .nav-links {
@@ -35,7 +36,7 @@ nav {
 
 .link a {
     text-decoration: none;
-    color: white;
+    color: darkgray;
     font-weight: bold;
     transition: color 0.3s ease;
 }
@@ -47,13 +48,13 @@ nav {
 /* Encabezado */
 header {
     text-align: center;
-    padding: 50px 0;
-    background-color: darkblue;
+    padding: 20px 0; /* Ajusté el padding para una mejor presentación */
+    background-color: darkorange;
 }
 
 .primero {
     font-size: 3em;
-    color: #fff;
+    color: black;
 }
 
 /* Secciones */
@@ -68,7 +69,7 @@ section {
 }
 
 .segundo {
-    color: #ffd700;
+    color: darkorange;
 }
 
 /* Imágenes */
