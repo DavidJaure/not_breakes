@@ -1,23 +1,118 @@
+/* Estilos Generales */
 body {
-  font-size: 15px;
-  background-color: cornflowerblue;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
+/* Barra de Navegación */
+nav {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Anta&family=Cantora+One&display=swap');
+.nav-logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+}
 
+.nav-links {
+    list-style: none;
+    display: flex;
+}
 
+.link {
+    margin-right: 20px;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.link a:hover {
+    color: #ffd700;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: darkblue;
+}
 
 .primero {
-  margin-top: 50px;
-  font-family: 'Cantora One', cursive;
-  front-weight: 400;
-  front-size: 40px;
+    font-size: 3em;
+    color: #fff;
+}
+
+/* Secciones */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .segundo {
-  margin-top: 50px;
-  font-family: 'Cantora One', cursive;
-  front-weight: 400;
-  front-size: 40px;
+    color: white;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Lista */
+ul {
+    list-style-type: disc;
+    margin-bottom: 20px;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #48a9a6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Formulario de Suscripción */
+.subscribe-form {
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botón */
+.btn {
+    background-color: #ffd700;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffa500;
 }
